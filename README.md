@@ -1,7 +1,7 @@
 # pyalpha
 Code for modeling a 2D slice of wire material. Python scripts using Meep. These will create a 2D slice of wire material, find its resonant modes, and access various field outputs.
 
-The module funcs will do the Meep-related setup. Use it with simulations/lattice_2D.py and simulations/lattice_2D_delta_parameter.py
+The user can choose geometry and source parameters, as well as different output options, by using the scripts [lattice_2D.py](simulations/lattice_2D.py) and [lattice_2D_delta_parameter.py](simulations/lattice_2D_delta_parameter.py). These will then call the module [funcs.py](simulations/funcs.py) that does all of the Meep-related setups.
 Some examples of what you can do with it:
  - Enclose the wire material with walls (both lossy or perfect electric conductors) or use open boundary conditions.
  - Introduce different types of defects to the wire material.
@@ -10,7 +10,7 @@ Some examples of what you can do with it:
 
 ## How to use
 
- 1. Start by taking a look at how_to_use/1.how_to_set_up_a_2D_lattice.ipynb, it explains how to construct a simulation of a 2D lattice, find its resonant modes, and access various field outputs. After reading the notebook you should know how to use the basic script simulations/lattice_2D.py for an ideal grid.
+ 1. Start by taking a look at how_to_use/1.how_to_set_up_a_2D_lattice.ipynb, it explains how to choose the parameters for a simulation of a 2D lattice, and the various field outputs that can be accessed through the funcs module. After reading the notebook you should know how to use the basic script simulations/lattice_2D.py for an ideal grid.
 
  2. Learn how to add defects to the wire material, check out how_to_use/2.how_to_add_defects.ipynb
 
