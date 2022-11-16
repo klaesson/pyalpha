@@ -10,9 +10,9 @@ Some examples of what you can do with it:
 
 ## How to use
 
- 1. Start by taking a look at the notebook [1.how_to_set_up_a_2D_lattice.ipynb](how_to_use/1.how_to_set_up_a_2D_lattice.ipynb), it explains how to choose the parameters for a simulation of a 2D lattice, and the various field outputs that can be accessed through the funcs module. After reading the notebook you should know how to use the basic script [lattice_2D.py](simulations/lattice_2D.py) for an ideal grid.
+ 1. Start by taking a look at the notebook [1_how_to_set_up_a_2D_lattice.ipynb](how_to_use/1_how_to_set_up_a_2D_lattice.ipynb), it explains how to choose the parameters for a simulation of a 2D lattice, and the various field outputs that can be accessed through the funcs module. After reading the notebook you should know how to use the basic script [lattice_2D.py](simulations/lattice_2D.py) for an ideal grid.
 
- 2. Learn how to add defects to the wire material, check out [2.how_to_add_defects.ipynb](how_to_use/2.how_to_add_defects.ipynb).
+ 2. Learn how to add defects to the wire material, check out [2_how_to_add_defects.ipynb](how_to_use/2_how_to_add_defects.ipynb).
 
  3. Use the script [lattice_2D_delta_parameter.py](simulations/lattice_2D_delta_parameter.py) when you want to simulate more than one setup. It uses `get_freqs_2D_grid_delta_parameter()` to organize various outputs that you get from modifying one parameter. 
 For example, you can use it to test convergence for resolution, runtime, or to change the number of wires in a grid.
