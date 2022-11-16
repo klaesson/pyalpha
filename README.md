@@ -21,4 +21,4 @@ You can also use it to tune the grid or gradually increase the size of a defect 
 ## Additional files
  - In [how_to_use_meep_waveguide.ipynb](how_to_use/how_to_use_meep_waveguide.ipynb) you'll find a small intro on how to set up simulations directly in Meep.
  - I have iuncluded an old file that you can use to get the TM-band structure of an infinite 2D grid, [infinite_square_grid.py](misc/infinite_square_grid.py).
- - There are two .yml files with the Conda environments that I've used. [mp_p.yml]([mp_p.yml) is for the normal version of Meep and [pmp.yml]([pmp.yml) for Meeps parallel version.
+ - There are two .yml files with the Conda environments that I've used. [mp_p.yml](mp_p.yml) is for the normal version of Meep and [pmp.yml](pmp.yml) for Meeps parallel version.
